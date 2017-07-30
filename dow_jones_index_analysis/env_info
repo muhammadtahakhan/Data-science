@@ -1,0 +1,7 @@
+source activate trypandas           \\\\\\for activating enviroment "trypandas" is my env
+source deactivate trypandas         \\\for deactivating enviroment
+
+
+conda create --name my_env python=3 numpy
+conda info --envs                  \\\\for listing all enviroments
+conda remove --name flowers --all         \\\\\for removing an enviroment
